@@ -1,0 +1,39 @@
+\documentclass[a4papper,10pt]{article}
+\usepackage[spanish]{babel}
+%\usepackage[utf8]{inputenc}
+\usepackage{anysize}
+\usepackage{hyperref}
+\title{Editor de Texto}
+\marginsize{2cm}{2cm}{2cm}{2cm}
+
+
+\begin{document}
+\maketitle
+
+Con el fin de dar orden en el desarrollo se establecen las siguientes reglas:
+
+\begin{itemize}
+	\item El control del proyecto se realizara por medio de Github
+	\item blbl
+\end{itemize}
+
+EL cronograma del proyecto es el siguiente:
+
+\begin{itemize}
+	\item Semana 1: Interfaz grafica, guardado y apertura de archivos.	
+	\item Semana 2: Funciones de busqueda y remplazo.
+	\item Semana 3: Funciones de Historial.
+\end{itemize}
+
+A medida que se llegue a la semana se daran las instrucciones del trabajo a realizar. Igualmente las revisiones seran los dias viernes y ese mismo dia en el repositorio (\url{https://github.com/unzero/Edito_texto}) se subiran lo de la siguiente semana.
+
+\section{Semana 1}
+
+En esta semana se debe dise\~nar la interfaz gr\'afica. Con ayuda de netbeans se deben poner men\'us y controles para las funciones basicas dentro de un editor de texto (abrir, guardar, buscar, remplazar, etc.).
+
+Tambi\'en se deben diseñar los cuadros de dialogo para el buscado y el remplazo, pueden ser el mismo, este cuadro de dialogo debe ser una clase distinta a la clase central Editor\_texto. Estos cuadros y la interfaz s\'olo deben abrirse NO FUNCIONAR.
+
+Con ayuda del libro de Deitel se debe poner en funcionamiento la apertura y el guardado de archivos, por el momento el guardado y apertura se hace por medio de archivos .dat \'o .txt. Con el fin de hacer esta labor es necesario desarrollar una clase Abrir\_archivo y Cerrar\_archivo. Todo esto se puede hacer por medio de manejo de archivos con java.
+
+
+\end{document}
